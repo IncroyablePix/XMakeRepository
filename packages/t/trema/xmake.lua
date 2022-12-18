@@ -5,7 +5,7 @@ package("trema")
     set_policy("package.strict_compatibility", true)
     add_urls("https://github.com/IncroyablePix/Trema.git")
 
-    add_deps("glfw", "tinyxml", "stb", "imgui", "vulkan-headers", "vulkan-validationlayers", "vulkan-loader", { public = true })
+    -- add_deps("glfw", "tinyxml", "stb", "imgui", "vulkan-headers", "vulkan-validationlayers", "vulkan-loader", { public = true })
 
     on_load(function (package)
         package:addenv("PATH", "bin")
