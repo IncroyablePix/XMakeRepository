@@ -4,10 +4,8 @@ package("trema")
     set_license("MIT")
     set_policy("package.strict_compatibility", true)
     add_urls("https://github.com/IncroyablePix/Trema.git")
-
-    add_deps("glfw", "tinyxml", "stb", "imgui", { public = true })
 	
-	add_versions("2022.12.18", "8574311f4b544fa89a3d8c3ee79d1929")
+	-- add_versions("2022.12.18", "8574311f4b544fa89a3d8c3ee79d1929")
 
 
     on_load(function (package)
