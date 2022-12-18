@@ -16,7 +16,6 @@ package("trema")
 
     on_install(function (package)
         local configs = {}
-        configs.examples = false
         if package:is_debug() then
             configs.mode = "debug"
         else
